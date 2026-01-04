@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Brandon | Portfolio</title>
+
+    <link rel="stylesheet" href="./css/output.css">
+
+</head>
+<body class="bg-stone-50 text-stone-900 dark:bg-stone-950 dark:text-stone-100 selection:bg-emerald-200 selection:text-stone-900">
+<!-- Nav section -->
+<header class="sticky top-0 z-50 border-b border-stone-200/70
+               bg-stone-50/80 backdrop-blur
+               dark:border-stone-800/70 dark:bg-stone-950/70">
+    <nav class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="#" class="font-bold tracking-tight text-stone-900 dark:text-stone-100">
+            BC
+        </a>
+
+        <div class="flex gap-6 text-sm">
+            <a href="#projects"
+               class="text-stone-700 hover:text-emerald-800 hover:underline underline-offset-4
+                dark:text-stone-300 dark:hover:text-emerald-300">
+                Projects
+            </a>
+            <a href="#skills"
+               class="text-stone-700 hover:text-emerald-800 hover:underline underline-offset-4
+                dark:text-stone-300 dark:hover:text-emerald-300">
+                Skills
+            </a>
+            <a href="#about"
+               class="text-stone-700 hover:text-emerald-800 hover:underline underline-offset-4
+                dark:text-stone-300 dark:hover:text-emerald-300">
+                About
+            </a>
+            <a href="#contact"
+               class="text-stone-700 hover:text-emerald-800 hover:underline underline-offset-4
+                dark:text-stone-300 dark:hover:text-emerald-300">
+                Contact
+            </a>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero section -->
+<section class="min-h-screen flex flex-col justify-center px-6 text-center
+               bg-gradient-to-b from-stone-50 via-emerald-50/50 to-stone-100
+               dark:from-stone-950 dark:via-emerald-950/20 dark:to-stone-950">
+
+    <!-- subtle “badge” line -->
+    <p class="mx-auto inline-flex items-center gap-2 rounded-full border border-stone-200/70
+            bg-white/60 px-4 py-2 text-sm text-stone-700
+            dark:border-stone-800/70 dark:bg-stone-900/30 dark:text-stone-200">
+        🌿 Computer Science Senior
+        <span class="text-stone-400 dark:text-stone-500">•</span>
+        Open to SWE & ML roles
+    </p>
+
+    <h1 class="mt-8 text-4xl md:text-6xl font-bold tracking-tight text-stone-900 dark:text-stone-50">
+        Brandon Castellanos
+    </h1>
+
+    <p class="mt-4 text-lg text-stone-700 dark:text-stone-300">
+        Building thoughtful software that connects with the real world.
+    </p>
+
+    <p class="mt-6 max-w-xl mx-auto text-stone-600 leading-relaxed dark:text-stone-400">
+        I enjoy shipping end-to-end projects—from ML prototypes to clean, mobile-first interfaces.
+    </p>
+
+    <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#projects"
+           class="px-6 py-3 rounded-xl bg-stone-900 text-stone-50
+              hover:bg-emerald-800 transition">
+            View Projects
+        </a>
+
+        <a href="https://github.com/brcaste"
+           target="_blank" rel="noopener noreferrer"
+           class="px-6 py-3 rounded-xl border border-stone-300 text-stone-900
+              hover:border-emerald-800 hover:text-emerald-900
+              dark:border-stone-700 dark:text-stone-100 dark:hover:text-emerald-300
+              transition">
+            GitHub
+        </a>
+    </div>
+
+    <!-- optional scroll hint -->
+    <div class="mt-16 text-sm text-stone-500 dark:text-stone-500">
+        Scroll for projects ↓
+    </div>
+</section>
+
+<!--project section -->
+<section id="projects" class="py-20 px-6">
+    <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold">Projects</h2>
+        <p class="mt-2 text-gray-600">A few things I’ve built recently.</p>
+
+        <div class="mt-10 grid gap-6 sm:grid-cols-2">
+            <article class="rounded-2xl border p-6 hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold">A To-do List App</h3>
+                <p class="mt-2 text-gray-600">
+                    A simple todo list app with light and dark mode, confetti completion and persistent storage.
+                </p>
+                <ul class="mt-4 flex flex-wrap gap-2 text-xs text-gray-600">
+                    <li class="px-2 py-1 border rounded-full">Dart</li>
+                    <li class="px-2 py-1 border rounded-full">Flutter SDK</li>
+                    <li class="px-2 py-1 border rounded-full">Firebase</li>
+                </ul>
+                <div class="mt-6 flex gap-4 text-sm">
+                    <a href="https://github.com/brcaste/todo_app" target="_blank" class="underline">GitHub</a>
+                    <a href="https://flutter-todo-app-8417c.web.app" target="_blank" class="underline">Demo</a>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border p-6 hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold">Movie-to-Book Recommender</h3>
+                <p class="mt-2 text-gray-600">
+                    NLP recommender using sentence transformers to suggest books similar to movies.
+                </p>
+                <ul class="mt-4 flex flex-wrap gap-2 text-xs text-gray-600">
+                    <li class="px-2 py-1 border rounded-full">Python</li>
+                    <li class="px-2 py-1 border rounded-full">Sentence-Transformers</li>
+                    <li class="px-2 py-1 border rounded-full">Scikit-learn</li>
+                </ul>
+                <div class="mt-6 flex gap-4 text-sm">
+                    <a href="https://github.com/brcaste/Movie-to-book-recommender.git" target="_blank"
+                       class="underline">GitHub</a>
+                </div>
+            </article>
+
+            <article class="rounded-2xl border p-6 hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold">Weather Health Risk Prediction</h3>
+                <p class="mt-2 text-gray-600">
+                    Regression model predicting health risk scores from weather features.
+                </p>
+                <ul class="mt-4 flex flex-wrap gap-2 text-xs text-gray-600">
+                    <li class="px-2 py-1 border rounded-full">Python</li>
+                    <li class="px-2 py-1 border rounded-full">XGBoost</li>
+                    <li class="px-2 py-1 border rounded-full">RandomForest</li>
+                </ul>
+                <div class="mt-6 flex gap-4 text-sm">
+                    <a href="https://github.com/brcaste/Weather-Health-Risk-Prediction/tree/main/Weather_Prediciton"
+                       target="_blank" class="underline">GitHub</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+<!--skills section -->
+<section id="skills" class="py-20 px-6 bg-gray-50">
+    <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold">Skills</h2>
+
+        <div class="mt-10 grid gap-6 sm:grid-cols-3">
+            <div class="rounded-2xl border bg-white p-6">
+                <h3 class="font-semibold">Languages</h3>
+                <p class="mt-2 text-gray-600 text-sm">Python, JavaScript, C++</p>
+            </div>
+            <div class="rounded-2xl border bg-white p-6">
+                <h3 class="font-semibold">ML</h3>
+                <p class="mt-2 text-gray-600 text-sm">Scikit-learn, XGBoost, Embeddings</p>
+            </div>
+            <div class="rounded-2xl border bg-white p-6">
+                <h3 class="font-semibold">Tools</h3>
+                <p class="mt-2 text-gray-600 text-sm">Git, GitHub, Firebase</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--contact/ about me section -->
+<section id="about" class="py-20 px-6">
+    <div class="max-w-3xl mx-auto">
+        <h2 class="text-3xl font-bold">About</h2>
+        <p class="mt-4 text-gray-600 leading-relaxed">
+            I’m a computer science senior focused on building ML-powered applications and clean web experiences.
+            I enjoy shipping projects end-to-end and improving products through iteration.
+        </p>
+    </div>
+</section>
+
+<section id="contact" class="py-20 px-6 bg-gray-50">
+    <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl font-bold">Contact</h2>
+        <p class="mt-4 text-gray-600">Want to chat? Email me or connect on LinkedIn.</p>
+        <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+            <a class="px-6 py-3 bg-black text-white rounded-xl" href="mailto:brcaste@gmail.com">Email</a>
+            <a class="px-6 py-3 border rounded-xl" href="https://www.linkedin.com/in/brcaste/">LinkedIn</a>
+        </div>
+    </div>
+</section>
+<!-- footer section-->
+<footer class="py-10 text-center text-sm text-gray-500">
+    © <span id="year"></span> Brandon Castellanos. Built with Tailwind.
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
