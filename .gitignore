@@ -1,0 +1,12 @@
+# dependencies
+node_modules/
+
+# build output (keep this if you DO commit output.css; see note below)
+# dist/
+
+# JetBrains
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
