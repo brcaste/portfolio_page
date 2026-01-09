@@ -1,0 +1,164 @@
+/* Component classes built with Tailwind utilities */
+@layer components {
+    .site-body {
+        @apply bg-stone-50 text-stone-900 selection:bg-emerald-200 selection:text-stone-900;
+    }
+
+    /* Header / Nav */
+    .site-header {
+        @apply sticky top-0 z-50 border-b border-stone-200/70 bg-stone-50/80 backdrop-blur;
+    }
+
+    .site-nav {
+        @apply max-w-5xl mx-auto px-6 py-4 flex items-center justify-between;
+    }
+
+    .brand {
+        @apply font-bold tracking-tight text-stone-900;
+    }
+
+    .nav-links {
+        @apply flex gap-6 text-sm;
+    }
+
+    .nav-link {
+        @apply text-stone-700 hover:text-emerald-800 hover:underline underline-offset-4;
+    }
+
+    /* Sections */
+    .section {
+        @apply py-20 px-6;
+    }
+
+    .section-inner-5xl {
+        @apply max-w-5xl mx-auto;
+    }
+
+    .section-inner-3xl {
+        @apply max-w-3xl mx-auto;
+    }
+
+    .section-title {
+        @apply text-3xl font-bold;
+    }
+
+    .section-subtitle {
+        @apply mt-2 text-stone-600;
+    }
+
+    /* Hero */
+    .hero {
+        @apply min-h-screen flex flex-col justify-center px-6 text-center
+        bg-gradient-to-b from-stone-50 via-emerald-50/50 to-stone-100;
+    }
+
+    .badge {
+        @apply mx-auto inline-flex items-center gap-2 rounded-full
+        border border-stone-200/70 bg-white/60 px-4 py-2
+        text-sm text-stone-700;
+    }
+
+    .badge-dot {
+        @apply text-stone-400;
+    }
+
+    .avatar-row {
+        @apply mx-auto mt-6 mb-6 flex items-center justify-center;
+    }
+
+    .avatar-ring {
+        @apply rounded-full bg-emerald-200/60 p-2;
+    }
+
+    .avatar-img {
+        @apply w-36 h-36 md:w-66 md:h-66 rounded-full object-cover bg-stone-100;
+    }
+
+    .hero-title {
+        @apply mt-4 text-4xl md:text-6xl font-bold tracking-tight text-stone-900;
+    }
+
+    .hero-lede {
+        @apply mt-4 text-lg text-stone-700;
+    }
+
+    .hero-desc {
+        @apply mt-6 max-w-xl mx-auto text-stone-600 leading-relaxed;
+    }
+
+    .hero-actions {
+        @apply mt-10 flex flex-col sm:flex-row gap-4 justify-center;
+    }
+
+    .scroll-hint {
+        @apply mt-16 text-sm text-stone-500;
+    }
+
+    /* Buttons */
+    .btn {
+        @apply px-6 py-3 rounded-xl transition;
+    }
+
+    .btn-primary {
+        @apply bg-stone-900 text-stone-50 hover:bg-emerald-800;
+    }
+
+    .btn-outline {
+        @apply border border-stone-300 text-stone-900 hover:border-emerald-800 hover:text-emerald-900;
+    }
+
+    /* Cards / pills */
+    .grid-cards-2 {
+        @apply mt-10 grid gap-6 sm:grid-cols-2;
+    }
+
+    .grid-cards-3 {
+        @apply mt-10 grid gap-6 sm:grid-cols-3;
+    }
+
+    .card {
+        @apply rounded-2xl border border-stone-200 p-6 hover:shadow-lg transition;
+    }
+
+    .card-title {
+        @apply text-xl font-semibold;
+    }
+
+    .card-text {
+        @apply mt-2 text-stone-700;
+    }
+
+    .pill-row {
+        @apply mt-4 flex flex-wrap gap-2 text-xs text-stone-600;
+    }
+
+    .pill {
+        @apply px-2 py-1 border border-stone-200 rounded-full;
+    }
+
+    .link-row {
+        @apply mt-6 flex gap-4 text-sm;
+    }
+
+    .link-underline {
+        @apply underline underline-offset-4 hover:text-emerald-800;
+    }
+
+    /* Contact */
+    .contact {
+        @apply py-20 px-6 bg-stone-50;
+    }
+
+    .contact-inner {
+        @apply max-w-3xl mx-auto text-center;
+    }
+
+    .contact-actions {
+        @apply mt-8 flex flex-col sm:flex-row gap-4 justify-center;
+    }
+
+    /* Footer */
+    .site-footer {
+        @apply py-10 text-center text-sm text-stone-500;
+    }
+}

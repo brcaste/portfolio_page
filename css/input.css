@@ -1,1 +1,5 @@
 @import "tailwindcss" source("../");
+
+/* Your site-specific styles live here (clean HTML, reusable classes) */
+@import "./component.css";
+@import "./custom.css";

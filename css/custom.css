@@ -1,0 +1,5 @@
+/* Force light UI even if the OS/browser prefers dark */
+:root { color-scheme: light; }
+
+/* Optional: keep smooth scrolling without putting it in HTML */
+html { scroll-behavior: smooth; }
